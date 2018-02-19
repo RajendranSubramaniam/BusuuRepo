@@ -4,6 +4,7 @@
   <test name="Demoxml" >
     <classes>
        <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch" />
+       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch" />
     </classes>
   </test>
  
