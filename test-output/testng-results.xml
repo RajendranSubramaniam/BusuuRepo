@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12605" started-at="2018-02-19T12:15:17Z" finished-at="2018-02-19T12:15:30Z">
+  <suite name="Demo" duration-ms="13358" started-at="2018-02-19T12:51:10Z" finished-at="2018-02-19T12:51:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12605" started-at="2018-02-19T12:15:17Z" finished-at="2018-02-19T12:15:30Z">
+    <test name="Demoxml" duration-ms="13358" started-at="2018-02-19T12:51:10Z" finished-at="2018-02-19T12:51:24Z">
       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch">
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch@cb5822]" name="verifyTitle" duration-ms="12572" started-at="2018-02-19T12:15:17Z" finished-at="2018-02-19T12:15:30Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch@cb5822]" name="verifyTitle" duration-ms="13323" started-at="2018-02-19T12:51:10Z" finished-at="2018-02-19T12:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
       </class> <!-- MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Demoxml -->
+  </suite> <!-- Demo -->
 </testng-results>
