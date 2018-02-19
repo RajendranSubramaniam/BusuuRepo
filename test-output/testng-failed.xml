@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo]">
+  <test name="Demoxml(failed)">
+    <classes>
+      <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch -->
+    </classes>
+  </test> <!-- Demoxml(failed) -->
+</suite> <!-- Failed suite [Demo] -->
