@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoTest" duration-ms="34054" started-at="2018-02-20T13:11:26Z" finished-at="2018-02-20T13:12:00Z">
+  <suite name="DemoTest" duration-ms="37868" started-at="2018-02-20T13:52:05Z" finished-at="2018-02-20T13:52:43Z">
     <groups>
     </groups>
-    <test name="Demoxml" duration-ms="34054" started-at="2018-02-20T13:11:26Z" finished-at="2018-02-20T13:12:00Z">
+    <test name="Demoxml" duration-ms="37868" started-at="2018-02-20T13:52:05Z" finished-at="2018-02-20T13:52:43Z">
       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch">
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch@61832929]" name="verifyTitle" duration-ms="19670" started-at="2018-02-20T18:41:41Z" finished-at="2018-02-20T18:42:00Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch@14acaea5]" name="verifyTitle" duration-ms="24690" started-at="2018-02-20T19:22:18Z" finished-at="2018-02-20T19:22:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
       </class> <!-- MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch -->
       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch">
-        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch@4501b7af]" name="verifyTitle" duration-ms="14364" started-at="2018-02-20T18:41:26Z" finished-at="2018-02-20T18:41:41Z">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch@26be92ad]" name="verifyTitle" duration-ms="13160" started-at="2018-02-20T19:22:05Z" finished-at="2018-02-20T19:22:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
