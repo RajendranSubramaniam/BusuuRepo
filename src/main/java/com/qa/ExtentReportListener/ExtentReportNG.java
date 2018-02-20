@@ -1,3 +1,4 @@
+
 package com.qa.ExtentReportListener;
 
 import java.io.File;
@@ -18,7 +19,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class ExtentReportListener implements IReporter {
+public class ExtentReportNG implements IReporter {
 	private ExtentReports extent;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,

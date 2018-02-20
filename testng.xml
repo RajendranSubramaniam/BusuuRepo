@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
-<suite name="Demo" verbose="1" >
+<suite name="DemoTest" verbose="1" >
 
 	<listeners>
-		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportNG" />
 	</listeners>
 
 
