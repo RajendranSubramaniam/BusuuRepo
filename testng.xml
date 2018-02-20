@@ -3,6 +3,9 @@
   
 <suite name="DemoTest" verbose="1" >
 
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
 
   <test name="Demoxml" >
     <classes>

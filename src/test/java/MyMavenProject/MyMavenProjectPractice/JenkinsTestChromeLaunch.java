@@ -22,6 +22,8 @@ public class JenkinsTestChromeLaunch {
 	
 	Assert.assertEquals(pageTitle, "Gmail");
 	
+	Thread.sleep(2000);
+	driver.close();
 	
 	}
 	}

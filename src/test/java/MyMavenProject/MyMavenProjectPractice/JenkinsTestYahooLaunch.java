@@ -22,6 +22,8 @@ public class JenkinsTestYahooLaunch {
 	
 	Assert.assertEquals(pageTitle, "Yahoo");
 	
+	Thread.sleep(2000);
+	driver.close();
 	
 	}
 	}
