@@ -3,6 +3,35 @@
   
 <suite name="DemoTest" verbose="1" >
 
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	
+
+<!-- 	<test name="firefoxtestcases">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml"/>
+		</classes>
+	</test>
+	Test
+
+	<test name="chrometestcases">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml"/>
+		</classes>
+	</test>
+	Test
+	
+	<test name="ietestcases">
+	<parameter name="browser" value="ie"/>
+		<classes>
+			<class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml"/>
+		</classes>
+	</test> -->
+
   <test name="Demoxml" >
     <classes>
        <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch" />
