@@ -34,8 +34,9 @@
 
   <test name="Demoxml" >
     <classes>
-       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch" />
-       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch" />
+<!--        <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch" />
+       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch" /> -->
+       <class name="com.qa.ExtentReportListener.ExtentReportScreenshot" />
     </classes>
   </test>
  

@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [DemoTest]">
-  <parameter name="browser" value="ie"/>
-  <test name="ietestcases(failed)">
-    <parameter name="browser" value="ie"/>
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Demoxml(failed)">
     <classes>
-      <class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml">
+      <class name="com.qa.ExtentReportListener.ExtentReportScreenshot">
         <methods>
-          <include name="crossBro" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="freeCrmTitleTest"/>
         </methods>
-      </class> <!-- MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml -->
+      </class> <!-- com.qa.ExtentReportListener.ExtentReportScreenshot -->
     </classes>
-  </test> <!-- ietestcases(failed) -->
+  </test> <!-- Demoxml(failed) -->
 </suite> <!-- Failed suite [DemoTest] -->
