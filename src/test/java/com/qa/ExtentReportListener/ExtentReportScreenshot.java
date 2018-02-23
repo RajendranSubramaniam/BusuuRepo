@@ -79,7 +79,7 @@ public class ExtentReportScreenshot {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get("https://www.gmail.com/");
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 		
 	}
 	
