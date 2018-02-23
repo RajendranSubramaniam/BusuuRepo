@@ -119,15 +119,5 @@ public class ExtentReportScreenshot {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
