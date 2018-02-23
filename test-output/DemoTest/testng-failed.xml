@@ -9,10 +9,10 @@
       <class name="com.qa.ExtentReportListener.ExtentReportScreenshot">
         <methods>
           <include name="tearDown"/>
+          <include name="ExtentReportFailureScreenshot"/>
           <include name="setup"/>
           <include name="setExtent"/>
           <include name="endReport"/>
-          <include name="freeCrmTitleTest"/>
         </methods>
       </class> <!-- com.qa.ExtentReportListener.ExtentReportScreenshot -->
     </classes>
