@@ -69,7 +69,7 @@ public class ExtentReportScreenshot {
 	
 	
 	@BeforeMethod
-	public void setup(){
+	public void setup() throws InterruptedException{
 		
 		System.setProperty("webdriver.chrome.driver","C:\\BrowserDrivers\\Chrome\\chromedriver.exe");	
 		driver = new ChromeDriver(); 
@@ -79,6 +79,7 @@ public class ExtentReportScreenshot {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get("https://www.gmail.com/");
+		Thread.sleep(3000);
 		
 	}
 	
@@ -90,6 +91,7 @@ public class ExtentReportScreenshot {
 		String title = driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals(title,"Gmail12");
+		
 	}
 	
 		
