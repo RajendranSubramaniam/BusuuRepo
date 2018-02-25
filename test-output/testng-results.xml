@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="DemoTest" duration-ms="12410" started-at="2018-02-25T14:08:22Z" finished-at="2018-02-25T14:08:34Z">
+  <suite name="Default suite" duration-ms="37481" started-at="2018-02-25T17:15:58Z" finished-at="2018-02-25T17:16:36Z">
     <groups>
     </groups>
-    <test name="Demoxml" duration-ms="12410" started-at="2018-02-25T14:08:22Z" finished-at="2018-02-25T14:08:34Z">
+    <test name="Default test" duration-ms="37481" started-at="2018-02-25T17:15:58Z" finished-at="2018-02-25T17:16:36Z">
       <class name="com.qa.ExtentReportListener.ExtentReportScreenshot">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@27efef64]" name="setExtent" is-config="true" duration-ms="141" started-at="2018-02-25T19:38:22Z" finished-at="2018-02-25T19:38:22Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setExtent" is-config="true" duration-ms="212" started-at="2018-02-25T22:45:58Z" finished-at="2018-02-25T22:45:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@27efef64]" name="setup" is-config="true" duration-ms="8863" started-at="2018-02-25T19:38:22Z" finished-at="2018-02-25T19:38:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setup" is-config="true" duration-ms="16260" started-at="2018-02-25T22:45:58Z" finished-at="2018-02-25T22:46:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ExtentReportFailureScreenshot()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@27efef64]" name="ExtentReportFailureScreenshot" duration-ms="258" started-at="2018-02-25T19:38:31Z" finished-at="2018-02-25T19:38:31Z">
+        <test-method status="FAIL" signature="ExtentReportFailureScreenshot()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="ExtentReportFailureScreenshot" duration-ms="78" started-at="2018-02-25T22:46:15Z" finished-at="2018-02-25T22:46:15Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Yahoo1] but found [Yahoo]]]>
@@ -58,22 +58,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportFailureScreenshot -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@27efef64]" name="tearDown" is-config="true" duration-ms="2822" started-at="2018-02-25T19:38:31Z" finished-at="2018-02-25T19:38:34Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="tearDown" is-config="true" duration-ms="2287" started-at="2018-02-25T22:46:15Z" finished-at="2018-02-25T22:46:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ExtentReportFailureScreenshot status=FAILURE method=ExtentReportScreenshot.ExtentReportFailureScreenshot()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@27efef64] output={null}]]]>
+                <![CDATA[[TestResult name=ExtentReportFailureScreenshot status=FAILURE method=ExtentReportScreenshot.ExtentReportFailureScreenshot()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@27efef64]" name="endReport" is-config="true" duration-ms="306" started-at="2018-02-25T19:38:34Z" finished-at="2018-02-25T19:38:34Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setup" is-config="true" duration-ms="17234" started-at="2018-02-25T22:46:17Z" finished-at="2018-02-25T22:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="yahooLogoTest()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="yahooLogoTest" duration-ms="122" started-at="2018-02-25T22:46:34Z" finished-at="2018-02-25T22:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooLogoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="tearDown" is-config="true" duration-ms="882" started-at="2018-02-25T22:46:34Z" finished-at="2018-02-25T22:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=yahooLogoTest status=SUCCESS method=ExtentReportScreenshot.yahooLogoTest()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="endReport" is-config="true" duration-ms="386" started-at="2018-02-25T22:46:35Z" finished-at="2018-02-25T22:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.qa.ExtentReportListener.ExtentReportScreenshot -->
-    </test> <!-- Demoxml -->
-  </suite> <!-- DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -79,12 +79,19 @@ public class ExtentReportScreenshot {
 	@Test
 	public void ExtentReportFailureScreenshot() throws InterruptedException{
 		extentTest = extent.startTest("GmailTitleTest");
-		driver.findElement(By.xpath(".//*[@id='mega-bottombar-mail']/span")).click();
+		//driver.findElement(By.xpath(".//*[@id='mega-bottombar-mail']/span")).click();
 		String title = driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals(title,"Yahoo1");
 		
 	}
+	
+	@Test
+	public void yahooLogoTest () {
+		boolean yahooLogo = driver.findElement(By.id("uh-logo")).isDisplayed();
+	}
+		
+	
 	
 		
 	@AfterMethod
