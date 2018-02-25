@@ -83,7 +83,7 @@ public class ExtentReportScreenshot {
 		//driver.findElement(By.xpath(".//*[@id='mega-bottombar-mail']/span")).click();
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title,"Google1");
+		Assert.assertEquals(title,"Google12");
 		
 		
 	}
