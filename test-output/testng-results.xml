@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32820" started-at="2018-02-25T17:32:23Z" finished-at="2018-02-25T17:32:56Z">
+  <suite name="Default suite" duration-ms="13347" started-at="2018-02-25T17:54:25Z" finished-at="2018-02-25T17:54:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32820" started-at="2018-02-25T17:32:23Z" finished-at="2018-02-25T17:32:56Z">
+    <test name="Default test" duration-ms="13347" started-at="2018-02-25T17:54:25Z" finished-at="2018-02-25T17:54:38Z">
       <class name="com.qa.ExtentReportListener.ExtentReportScreenshot">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setExtent" is-config="true" duration-ms="144" started-at="2018-02-25T23:02:23Z" finished-at="2018-02-25T23:02:24Z">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setExtent" is-config="true" duration-ms="137" started-at="2018-02-25T23:24:25Z" finished-at="2018-02-25T23:24:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setup" is-config="true" duration-ms="18412" started-at="2018-02-25T23:02:24Z" finished-at="2018-02-25T23:02:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setup" is-config="true" duration-ms="5201" started-at="2018-02-25T23:24:25Z" finished-at="2018-02-25T23:24:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="ExtentReportFailureScreenshot()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="ExtentReportFailureScreenshot" duration-ms="101" started-at="2018-02-25T23:02:42Z" finished-at="2018-02-25T23:02:42Z">
+        <test-method status="FAIL" signature="ExtentReportFailureScreenshot()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="ExtentReportFailureScreenshot" duration-ms="25" started-at="2018-02-25T23:24:30Z" finished-at="2018-02-25T23:24:30Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Yahoo1] but found [Yahoo]]]>
+              <![CDATA[expected [Google1] but found [Google]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Yahoo1] but found [Yahoo]
+              <![CDATA[java.lang.AssertionError: expected [Google1] but found [Google]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:496)
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at com.qa.ExtentReportListener.ExtentReportScreenshot.ExtentReportFailureScreenshot(ExtentReportScreenshot.java:85)
+	at com.qa.ExtentReportListener.ExtentReportScreenshot.ExtentReportFailureScreenshot(ExtentReportScreenshot.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ExtentReportFailureScreenshot -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="tearDown" is-config="true" duration-ms="1757" started-at="2018-02-25T23:02:42Z" finished-at="2018-02-25T23:02:44Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="tearDown" is-config="true" duration-ms="1604" started-at="2018-02-25T23:24:31Z" finished-at="2018-02-25T23:24:32Z">
           <params>
             <param index="0">
               <value>
@@ -69,15 +69,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setup" is-config="true" duration-ms="11234" started-at="2018-02-25T23:02:44Z" finished-at="2018-02-25T23:02:55Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="setup" is-config="true" duration-ms="5271" started-at="2018-02-25T23:24:32Z" finished-at="2018-02-25T23:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="yahooLogoTest()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="yahooLogoTest" duration-ms="80" started-at="2018-02-25T23:02:55Z" finished-at="2018-02-25T23:02:55Z">
+        <test-method status="PASS" signature="yahooLogoTest()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="yahooLogoTest" duration-ms="63" started-at="2018-02-25T23:24:37Z" finished-at="2018-02-25T23:24:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yahooLogoTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="tearDown" is-config="true" duration-ms="806" started-at="2018-02-25T23:02:55Z" finished-at="2018-02-25T23:02:56Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="tearDown" is-config="true" duration-ms="769" started-at="2018-02-25T23:24:37Z" finished-at="2018-02-25T23:24:38Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +88,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="endReport" is-config="true" duration-ms="265" started-at="2018-02-25T23:02:56Z" finished-at="2018-02-25T23:02:56Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.ExtentReportListener.ExtentReportScreenshot@3ffc5af1]" name="endReport" is-config="true" duration-ms="261" started-at="2018-02-25T23:24:38Z" finished-at="2018-02-25T23:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

@@ -72,8 +72,8 @@ public class ExtentReportScreenshot {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://www.yahoo.com");
-		Thread.sleep(20000);
+		driver.get("https://www.google.com");
+		
 		
 	}
 		
@@ -83,14 +83,14 @@ public class ExtentReportScreenshot {
 		//driver.findElement(By.xpath(".//*[@id='mega-bottombar-mail']/span")).click();
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title,"Yahoo1");
+		Assert.assertEquals(title,"Google1");
 		
 		
 	}
 	
 	@Test
 	public void yahooLogoTest () {
-		boolean yahooLogo = driver.findElement(By.id("uh-logo")).isDisplayed();
+		boolean yahooLogo = driver.findElement(By.name("btnK")).isDisplayed();
 	}
 		
 	
