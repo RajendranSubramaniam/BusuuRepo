@@ -73,7 +73,8 @@ public class ExtentReportScreenshot {
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.yahoo.com");
-					
+		Thread.sleep(20000);
+		
 	}
 		
 	@Test
@@ -83,6 +84,7 @@ public class ExtentReportScreenshot {
 		String title = driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals(title,"Yahoo1");
+		
 		
 	}
 	
