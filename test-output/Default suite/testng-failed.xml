@@ -3,11 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml">
+      <class name="com.qa.ExtentReportListener.ExtentReportScreenshot">
         <methods>
-          <include name="crossBro"/>
+          <include name="tearDown"/>
+          <include name="ExtentReportFailureScreenshot"/>
+          <include name="setup"/>
+          <include name="setExtent"/>
+          <include name="endReport"/>
         </methods>
-      </class> <!-- MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml -->
+      </class> <!-- com.qa.ExtentReportListener.ExtentReportScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

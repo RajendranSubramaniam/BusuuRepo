@@ -6,6 +6,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -13,6 +14,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -24,18 +26,14 @@ import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.HTMLReporter;
 import com.relevantcodes.extentreports.LogStatus;
 
-
-
 public class ExtentReportScreenshot {
-	
-	
+		
 	public WebDriver driver;
 	public ExtentReports extent;
 	public ExtentTest extentTest;
-
-	
 	
 	@BeforeTest
 	public void setExtent(){
@@ -64,10 +62,7 @@ public class ExtentReportScreenshot {
 		FileUtils.copyFile(source, finalDestination);
 		return destination;
 	}
-	
-	
-	
-	
+			
 	@BeforeMethod
 	public void setup() throws InterruptedException{
 		
@@ -77,19 +72,17 @@ public class ExtentReportScreenshot {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		driver.get("https://www.yahoo.com/");
-				
+		driver.get("https://www.yahoo.com");
+					
 	}
-	
-	
-	
+		
 	@Test
-	public void ExtentReportFailureScreenshot(){
+	public void ExtentReportFailureScreenshot() throws InterruptedException{
 		extentTest = extent.startTest("GmailTitleTest");
+		driver.findElement(By.xpath(".//*[@id='mega-bottombar-mail']/span")).click();
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title,"Gmail12");
+		Assert.assertEquals(title,"Yahoo1");
 		
 	}
 	
@@ -118,6 +111,4 @@ public class ExtentReportScreenshot {
 		driver.quit();
 	}
 	
-	
-
 }
