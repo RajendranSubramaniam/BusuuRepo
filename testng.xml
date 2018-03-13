@@ -1,30 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="CrossBrowserTesting">
+<suite name="Suite">
 
 <listeners> <!-- This listeners is generic one to create Extent reports, copy and paste just under suite tag-->
 		<listener class-name="MyMavenProject.MyMavenExtentReport.ExtentReporterNG" />
 </listeners>
-
-<test name="firefoxtestcases">
-	<parameter name="browser" value="firefox"/>
-		<classes>
-			<class name="MyMavenProject.MyMavenCrossBrowser.CrossBrowserTestingUsingxml"/>
-		</classes>
-</test>
 	
-<test name="chrometestcases">
-	<parameter name="browser" value="chrome"/>
-		<classes>
-			<class name="MyMavenProject.MyMavenCrossBrowser.CrossBrowserTestingUsingxml"/>
-		</classes>
-</test>
-	
-<test name="ietestcases">
-	<parameter name="browser" value="ie"/>
-		<classes>
-			<class name="MyMavenProject.MyMavenCrossBrowser.CrossBrowserTestingUsingxml"/>
-		</classes>
-</test>
-
+  <test name="Test">
+    <classes>
+      <class name="MyMavenProject.MyMavenExtentReport.ExtentReportScreenshot"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
