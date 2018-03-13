@@ -5,11 +5,11 @@
   <test name="ietestcases(failed)" parallel="tests">
     <parameter name="browser" value="ie"/>
     <classes>
-      <class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml">
+      <class name="MyMavenProject.MyMavenCrossBrowser.CrossBrowserTestingUsingxml">
         <methods>
           <include name="crossBro" invocation-numbers="0"/>
         </methods>
-      </class> <!-- MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml -->
+      </class> <!-- MyMavenProject.MyMavenCrossBrowser.CrossBrowserTestingUsingxml -->
     </classes>
   </test> <!-- ietestcases(failed) -->
 </suite> <!-- Failed suite [eCommerce] -->

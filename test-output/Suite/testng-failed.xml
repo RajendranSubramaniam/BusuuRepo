@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="MyMavenProject.MyMavenExtentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="MyMavenProject.MyMavenExtentReport.ExtentReportScreenshot">
+        <methods>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="ExtentReportFailureScreenshot"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- MyMavenProject.MyMavenExtentReport.ExtentReportScreenshot -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

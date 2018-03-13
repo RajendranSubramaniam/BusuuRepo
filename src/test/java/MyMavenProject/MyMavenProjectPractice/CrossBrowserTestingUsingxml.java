@@ -14,7 +14,7 @@ WebDriver driver;
 @Test
 @Parameters("browser")
  
-public void crossBro(String browser) {
+public void crossBro(String browser) throws InterruptedException {
  if (browser.equalsIgnoreCase("firefox")){
   driver=new FirefoxDriver();
   }
@@ -25,13 +25,14 @@ driver=new ChromeDriver();
 }
 else if (browser.equalsIgnoreCase("ie")){
 //System.setProperty("webdriver.ie.driver","C:\\BrowserDrivers\\IE\\IEDriverServer64.exe");
-//System.setProperty("webdriver.ie.driver","C:\\BrowserDrivers\\IE\\IEDriverServer32.exe");
+System.setProperty("webdriver.ie.driver","C:\\BrowserDrivers\\IE\\IEDriverServer32.exe");
 driver=new InternetExplorerDriver();
 }
 
 driver.manage().window().maximize();
 driver.get("https://www.facebook.com");
-//driver.close();
+Thread.sleep(4000);
+driver.close();
 }
 }
 

@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
   
-<suite name="DemoTest" verbose="1" >
-
-
-	<listeners>
-		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
-	</listeners>
+<suite name="CommonDemoTest" verbose="1" >
 	
-
-<!-- 	<test name="firefoxtestcases">
-	<parameter name="browser" value="firefox"/>
-		<classes>
-			<class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml"/>
-		</classes>
-	</test>
-	Test
-
-	<test name="chrometestcases">
-	<parameter name="browser" value="chrome"/>
-		<classes>
-			<class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml"/>
-		</classes>
-	</test>
-	Test
-	
-	<test name="ietestcases">
-	<parameter name="browser" value="ie"/>
-		<classes>
-			<class name="MyMavenProject.MyMavenProjectPractice.CrossBrowserTestingUsingxml"/>
-		</classes>
-	</test> -->
-
   <test name="Demoxml" >
     <classes>
-<!--        <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch" />
-       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch" /> -->
-       <class name="com.qa.ExtentReportListener.ExtentReportScreenshot" />
+       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestChromeLaunch" />
+       <class name="MyMavenProject.MyMavenProjectPractice.JenkinsTestYahooLaunch" />
     </classes>
   </test>
  
