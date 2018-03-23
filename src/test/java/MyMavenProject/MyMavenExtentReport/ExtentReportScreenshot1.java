@@ -29,7 +29,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.HTMLReporter;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class ExtentReportScreenshot {
+public class ExtentReportScreenshot1 {
 		
 	public WebDriver driver;
 	public ExtentReports extent;
@@ -72,26 +72,26 @@ public class ExtentReportScreenshot {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("https://www.google.com");
+		driver.get("https://www.rediffmail.com");
 		
 	}
 		
 	@Test
 	public void ExtentReportFailureScreenshot() throws InterruptedException{
-		extentTest = extent.startTest("GmailTitleTest");
+		extentTest = extent.startTest("RediffmailTitleTest");
 		//driver.findElement(By.xpath(".//*[@id='mega-bottombar-mail']/span")).click();
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title,"Google12");
+		Assert.assertEquals(title,"Rediff.com: Online Shopping, Rediffmail, Latest India News, Business, Bollywood, Sports, Stock, Live Cricket Score, Money, Movie Reviews");
 		
 	}
 	
 	@Test
-	public void googlebuttonTest () {
-		extentTest = extent.startTest("googlebutton");
-		boolean googlebutton = driver.findElement(By.name("btnK")).isDisplayed();
+	public void rediffLogoTest () {
+		boolean rediffLogo = driver.findElement(By.id("redifflogo")).isDisplayed();
 	}
-				
+		
+			
 	@AfterMethod
 	public void tearDown(ITestResult result) throws IOException{
 		

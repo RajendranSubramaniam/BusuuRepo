@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="MyMavenProject.MyMavenCrossBrowser.CrossBrowserTestingUsingxml">
+      <class name="busuu.VerifyLoginFunctionality">
         <methods>
-          <include name="crossBro"/>
+          <include name="logintest"/>
         </methods>
-      </class> <!-- MyMavenProject.MyMavenCrossBrowser.CrossBrowserTestingUsingxml -->
+      </class> <!-- busuu.VerifyLoginFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
